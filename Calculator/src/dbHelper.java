@@ -3,9 +3,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class dbHelper {
-    private final  String username="root";
-    private final String pasword="1234";
-    private final String dburl="jdbc:mysql://localhost:3306/calculator";
+    private final  String username="";//Enter your MySQL database username here.
+    private final String password="";//Enter your MySQL database password here.
+    private final String dburl="";//Enter your MySQL database url here.
 
     public Connection getConnection() throws SQLException{
         return DriverManager.getConnection(dburl,username,pasword);
